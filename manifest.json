@@ -1,0 +1,19 @@
+{
+	"required_api_version": "^2.0.0",
+	"name": "Generator",
+	"description": "Generate crypto random strings",
+	"developer_name": "Michael Chacaton",
+	"icon": "images/key.png",
+	"options": {
+		"query_debounce": 0.05
+	},
+	"preferences": [
+		{
+			"id": "generator_kw",
+			"type": "keyword",
+			"name": "Generator",
+			"description": "Generates a new crypto random string",
+			"default_value": "gen"
+		}
+	]
+}
